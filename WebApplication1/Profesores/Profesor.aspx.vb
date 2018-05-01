@@ -7,11 +7,11 @@
 
         If Session("UserID") = "vadillo@ehu.es" Then
 
-            lnkCoord.Visible = True
+            HyperLink1.Visible = True
 
         Else
 
-            lnkCoord.Visible = False
+            HyperLink1.Visible = False
 
         End If
 
@@ -23,16 +23,6 @@
         Session.Abandon()
 
         Response.Redirect("../Inicio.aspx")
-
-    End Sub
-
-    Protected Sub lnkCoord_Click(sender As Object, e As EventArgs) Handles lnkCoord.Click
-
-        If Session("vadillo@ehu.es") Then
-
-            Response.Redirect("~Coordinador.aspx")
-
-        End If
 
     End Sub
 

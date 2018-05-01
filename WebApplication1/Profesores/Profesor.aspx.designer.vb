@@ -95,11 +95,11 @@ Partial Public Class Profesor2
     Protected WithEvents LinkButton12 As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control lnkCoord.
+    '''Control HyperLink1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lnkCoord As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 End Class
