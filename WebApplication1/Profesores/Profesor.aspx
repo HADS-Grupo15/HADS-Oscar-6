@@ -36,10 +36,12 @@
             <br /><br />
         </div>
         <div id="columnaDER" style="text-align:center;float:right;background-color:Highlight;width:74%; height: 500px;">
-            <br /><br /> <br /><br /><br />
+            <br /><br /> <br />
+            <asp:LinkButton ID="lnkCoord"  style="font-size:35px" runat="server">Panel del Coordinador</asp:LinkButton>
+            <br /><br />
             <h1>Gestión Web de Tareas-Dedicación</h1>
             <br /><br />
-            <h1>Profesores</h1>
+            <h1>Profesores</h1>          
         </div>
     </form>
 </body>

@@ -38,6 +38,7 @@ Public Class Login
                 If Request.QueryString("ReturnURL") Is Nothing Then 'Si no se viene de ninguna página de la aplicación
                     Response.Redirect("./Profesores/Profesor.aspx")
                 End If
+
             Else 'tipo.Read Is "Alumno"
                     'System.Web.Security.FormsAuthentication.SetAuthCookie("Alumno", False)
                     System.Web.Security.FormsAuthentication.RedirectFromLoginPage("Alumno", False)

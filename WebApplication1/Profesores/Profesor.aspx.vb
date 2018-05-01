@@ -5,6 +5,16 @@
 
         Label1.Text = Session("UserID")
 
+        If Session("UserID") = "vadillo@ehu.es" Then
+
+            lnkCoord.Visible = True
+
+        Else
+
+            lnkCoord.Visible = False
+
+        End If
+
     End Sub
 
     Protected Sub ImageButton2_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton2.Click
@@ -16,7 +26,13 @@
 
     End Sub
 
-    Protected Sub LinkButton8_Click(sender As Object, e As EventArgs) Handles LinkButton8.Click
+    Protected Sub lnkCoord_Click(sender As Object, e As EventArgs) Handles lnkCoord.Click
+
+        If Session("vadillo@ehu.es") Then
+
+            Response.Redirect("~Coordinador.aspx")
+
+        End If
 
     End Sub
 
